@@ -1,0 +1,39 @@
+
+[
+  {
+    "film_id": 1,
+    "poster": "./src/posters/id1.png"
+  },
+  {
+    "film_id": 2,
+    "poster": "./src/posters/id2.png"
+  },
+  {
+    "film_id": 3,
+    "poster": "./src/posters/id3.png"
+  },
+  {
+    "film_id": 4,
+    "poster": "./src/posters/id4.png"
+  },
+  {
+    "film_id": 5,
+    "poster": "./src/posters/id5.png"
+  },
+  {
+    "film_id": 6,
+    "poster": "./src/posters/id6.png"
+  },
+  {
+    "film_id": 7,
+    "poster": "./src/posters/id7.png"
+  },
+  {
+    "film_id": 8,
+    "poster": "./src/posters/id8.png"
+  },
+  {
+    "film_id": 9,
+    "poster": "./src/posters/id9.png"
+  }
+]

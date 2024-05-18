@@ -1,0 +1,128 @@
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding-left: 20px;
+
+}
+
+.filter-container h1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  height: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.filter-container button {
+  margin: 5px;
+  padding: 5px 20px;
+  background-color: #513D8C;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.filter-container  button:hover,
+.filter-container button:focus {
+  background-color: #6C5CE7; 
+}
+
+.film-details {
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid #DFF604;
+  background-color: #291A56;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: left;
+}
+
+.film-details h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  height: 20px;
+  padding-bottom: 40px;
+  padding-top: 5px;
+}
+
+.poster-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.poster-container {
+  width: 200px;
+  height: auto;
+}
+
+.poster-container img {
+  border-radius: 20px;
+}
+
+.screening-time-container {
+  margin-left: 40px;
+  flex-direction: column; 
+  font-size: 16px;
+  color: #DFF604;
+}
+
+.screening-time {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.screening-time p {
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid none;
+  background-color: #513D8C;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.screening-time p:hover {
+  background-color: #747DFF;
+}
+
+
+.popupscreens {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #5453ED;
+  padding: 1px;
+  border-radius: 20px;
+  border: 2px solid #DFF604;
+  width: 600px; 
+  height: 560px; 
+  z-index: 2;
+  display: none;
+}
+
+.popupscreens.show {
+  display: block;
+}
+
+.submiting {
+  background-color: #291A56;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.submiting:hover {
+  border: 2px solid #DFF604;
+}
+
+.submiting:active {
+    background-color: #291A56;
+}

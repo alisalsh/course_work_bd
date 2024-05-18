@@ -1,0 +1,45 @@
+.ticket-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 30px;
+}
+
+.ticket {
+  background-color: #291A56;
+  padding: 20px;
+  color: white;
+  margin: 10px;
+  border: 2px solid #DFF604;
+  border-radius: 20px;
+  width: 250px;
+  display: flex; /* Add this line */
+  flex-direction: column; /* Add this line */
+}
+
+.ticket-info {
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.paid {
+  color: #DFF604;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.pay-button {
+  background-color: #513D8C;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: auto; /* Add this line */
+}
+
+.pay-button:hover {
+  background-color: #DFF604;
+  color: #291A56;
+  font-weight: 500;
+}

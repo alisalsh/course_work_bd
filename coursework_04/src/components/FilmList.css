@@ -1,0 +1,131 @@
+.film-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.card {
+    width: 220px;
+    //height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #DFF604;
+    background-color: #291A56;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: left;
+}
+
+.card-content {
+  color: #FF99FF;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+
+.card h1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    height: 20px;
+    padding-top: 16px;
+}
+
+.card img {
+    border-radius: 10px;
+    height: 290px;
+}
+
+.film-card hr {
+    margin-top: 80px;
+    border: none;
+    background-color: #291A56;
+    padding-bottom: 10px;
+  }
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1F2031;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #DFF604;
+    box-shadow: 50px 50px 50px rgba(0,0,0,0.2);
+    width: 800px; /* increased width */
+    height: 330px; /* increased height */
+    z-index: 2;
+    display: none;
+  }
+ 
+  .popup.show {
+    display: block;
+  }
+
+  .popup h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    height: 20px;
+    padding-bottom: 40px;
+    padding-top: 5px;
+    color: white;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .poster {
+    width: 170px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 80px;
+  }
+
+  .popup img {
+    border-radius: 20px;
+  }
+  
+  .text {
+    width: 70%; 
+    padding: 30px;
+    color: white;
+    text-align: left;
+  }
+  .text-link {
+    width: 70%; 
+    padding: 30px;
+    color: white;
+    text-align: left;
+  }
+  .text hr {
+    margin-top: 10px;
+    border: none;
+    background-color: #1F2031;
+    padding-bottom: 10px;
+  }
+  .text h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .close-button {
+    position: absolute;
+    color: #FF99FF;
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #DFF604;
+    transition: color 0.2s ease-out; /* Add a transition effect */
+  }

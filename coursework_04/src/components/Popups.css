@@ -1,0 +1,71 @@
+.seat-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #5453ED;
+    /* border: 3px solid #DFF604;
+    border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* added to center the content horizontally */
+  }
+  
+
+  .top-border {
+    width: 340px;
+    border-top: 20px solid #291A56;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  
+  .seat-row {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .seat {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #291A56;
+    border-radius: 10px; /* changed from 20px to 0px to make it a square */
+    cursor: pointer;
+    margin-right: 6px; /* added some margin to separate the seats */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* added to center the value inside the seat */
+  }
+  
+  .seat:hover {
+    background-color: #291A56;
+    border: 2px solid #DFF604;
+  }
+  
+  .seat:active {
+    background-color: #666;
+  }
+  
+  .seat.selected {
+    background-color: #FF99FF; /* or any other color you prefer */
+    color: #fff; /* or any other color you prefer */
+    align-items: left;
+  }
+
+  
+  .selected-seats {
+    margin-top: 20px;
+    margin: 0; /* add this to reset the margin */
+    color: white;
+    text-align: left; /* add this to align the text to the left */
+  }
+  
+  .selected-seats p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
